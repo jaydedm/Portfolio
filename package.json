@@ -6,8 +6,7 @@
   "homepage": "https://jaydedm.github.io/Portfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "deploy": "gh-pages -d dist",
-    "start": "node main.js"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Jayde Mitchell",
   "license": "MIT",
