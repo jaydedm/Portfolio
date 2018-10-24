@@ -282,3 +282,12 @@ main {
     margin-top: 10vh; }
   .projects {
     grid-template-columns: 1fr; } }
+
+@media screen and (max-width: 400px) {
+  main .lg-heading {
+    font-size: 450%; }
+  .projects img {
+    width: 90%; }
+  .projects .btn, .projects .btn-dark, .projects .btn-light {
+    width: 90%;
+    margin: auto; } }
