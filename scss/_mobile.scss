@@ -71,11 +71,26 @@
     margin-top: 10vh;
   }
 
+  main {
+    padding: 2rem;
+  }
+
+  .lg-heading {
+    margin-top: 1rem;
+    font-size: 5rem;
+  }
+
   .projects {
     grid-template-columns: 1fr;
   }
-}
 
+  .boxes {
+    display: inline;
+    .text-tertiary {
+      font-size: 25px;
+    }
+  }
+}
 @include mediaXS {
   main {
     .lg-heading {
