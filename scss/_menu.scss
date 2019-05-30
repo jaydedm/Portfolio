@@ -1,5 +1,8 @@
-// Menu Button
+.menu-nav {
+  font-family: 'Poppins', sans-serif;
+}
 
+// Menu Button
 .menu-btn {
   position: absolute;
   z-index: 3;
@@ -91,7 +94,7 @@
     .portrait {
       width: 250px;
       height: 250px;
-      background: url("../img/JaydePortrait.jpg");
+      background: url('../img/JaydePortrait.jpg');
       border-radius: 50%;
       border: solid 3px $secondary-color;
       z-index: 5;

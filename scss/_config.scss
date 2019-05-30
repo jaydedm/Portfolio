@@ -1,8 +1,8 @@
 $primary-color: #444;
 $secondary-color: #0572a5;
 $show-home-image: true;
-$home-image: url(../img/background.jpg);
-$background-opacity: 0.9;
+$home-image: url(https://s3-us-west-2.amazonaws.com/jaydemitchell.com/webheader1.jpg);
+$background-opacity: 0;
 
 @mixin easeOut {
   transition: all 0.5s ease-out;
@@ -11,12 +11,12 @@ $background-opacity: 0.9;
 @mixin background {
   @if $show-home-image {
     &#bg-img {
-      background: $home-image;
+      background-color: lightgrey;
       background-attachment: fixed;
       background-size: cover;
 
       &:after {
-        content: "";
+        content: '';
         position: absolute;
         top: 0;
         right: 0;
